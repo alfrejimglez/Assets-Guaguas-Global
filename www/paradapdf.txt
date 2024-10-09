@@ -1,0 +1,4 @@
+<tr>
+<td class="dibujo_linea3 gradient" valign="top"><b class="bolacolor3"><div style="padding-top:11px">[PCOMERCIAL]</div></b></td>
+<td valign="top"><p class="parada">[TEXTOPARADA]</p></td>
+</tr>

@@ -1,0 +1,11 @@
+<tr>
+[DIBUJO_LINEA]
+<td>
+    <p class="parada">[NEGRITA_ABIERTO]
+        <div class="parada_nombre">
+            [TEXTOPARADA]
+        </div>
+     [NEGRITA_CERRADO]
+     </p>
+     </td>
+</tr>

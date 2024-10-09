@@ -1,0 +1,19 @@
+@charset "UTF-8";
+.color1 { color:#018997;}
+@font-face {font-family:'GeogrotesqueCyrMedium'; src: url('file:///android_asset/fonts/GeogrotesqueCyr-Medium.ttf')}
+html {font-family:'GeogrotesqueCyrMedium', sans-serif !important;}
+.cambiarTexto{font-family:'GeogrotesqueCyrMedium', sans-serif !important;}
+.square {border-top:4px solid #018997; border-bottom:4px solid #018997; text-align:center; padding-top: 10px!important;}
+.color2 {color:#018997; text-align:center;}
+.alineartexto {text-align:center;}
+.alineartexto2 {text-align:center;}
+.alineartexto3 {text-align:left;}
+.colorcito {background-color:#018997; text-align:center; color:#fff;}
+span {display: block!important;}
+.bolacolor_all {border-radius: 100%!important; margin-left: 4px!important; height: 12.5px!important; width:12.5px!important; }
+.bolacolor_grande {border-radius: 100%!important; padding-left: 7.9px; padding-right: 3px; height: 20px!important; width: 20px!important;}
+.cuadro_color {border-radius: 0%!important;}
+.linea_color {line-height: 15px!important;}
+p .parada {display: block!important; margin-top: 10px; margin-bottom: 1px;}
+.paradas_finales {display: inline-table!important; margin-top: -20px!important; margin-bottom: -20px!important; line-height: 8px!important;}
+.celdas_superiores {display: table-cell; padding-top: 0px!important; padding-bottom: 0px!important;}
