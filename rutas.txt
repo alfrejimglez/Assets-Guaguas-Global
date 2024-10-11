@@ -1,0 +1,246 @@
+package B;
+
+import com.desicsl.cityss.a;
+
+public abstract class c {
+  private static String a;
+  
+  private static String b;
+  
+  private static String c;
+  
+  private static String d;
+  
+  private static String e;
+  
+  private static String f;
+  
+  private static String g;
+  
+  private static String h;
+  
+  private static String i;
+  
+  private static String j;
+  
+  private static String k;
+  
+  private static String l;
+  
+  private static String m;
+  
+  private static String n;
+  
+  private static String o;
+  
+  private static String p;
+  
+  private static String q;
+  
+  private static String r;
+  
+  private static String s;
+  
+  private static String t;
+  
+  private static String u;
+  
+  private static String v;
+  
+  public static void a() {
+    boolean bool;
+    if (a.e.booleanValue()) {
+      bool = true;
+    } else {
+      bool = false;
+    } 
+    b(bool);
+  }
+  
+  public static void b(boolean paramBoolean) {
+    String str1;
+    String str2;
+    if (paramBoolean) {
+      str1 = "http://80.28.248.205:8086/App_MiLineaGlobal-Project-context-root/jersey/";
+    } else {
+      str1 = "https://app.guaguasglobal.com:44043/App_MiLineaGlobal-Project-context-root/jersey/";
+    } 
+    if (paramBoolean) {
+      str2 = "http://80.28.248.205:8086/App_GlobalSW-Project-context-root/jersey/";
+    } else {
+      str2 = "http://sat2globalapp.com:44040/App_GlobalSW-Project-context-root/jersey/";
+    } 
+    StringBuilder stringBuilder2 = new StringBuilder();
+    stringBuilder2.append(str1);
+    stringBuilder2.append("paradas/%1$s/vehiculoscercanos");
+    a = stringBuilder2.toString();
+    stringBuilder2 = new StringBuilder();
+    stringBuilder2.append(str1);
+    stringBuilder2.append("paradas/%1$s/variantes");
+    b = stringBuilder2.toString();
+    stringBuilder2 = new StringBuilder();
+    stringBuilder2.append(str1);
+    stringBuilder2.append("paradas/%1$s");
+    c = stringBuilder2.toString();
+    stringBuilder2 = new StringBuilder();
+    stringBuilder2.append(str1);
+    stringBuilder2.append("paradasjson?lat=%1$s&lon=%2$s&dist=%3$s");
+    d = stringBuilder2.toString();
+    stringBuilder2 = new StringBuilder();
+    stringBuilder2.append(str1);
+    stringBuilder2.append("tarifas?lang=%1$s");
+    e = stringBuilder2.toString();
+    stringBuilder2 = new StringBuilder();
+    stringBuilder2.append(str1);
+    stringBuilder2.append("puntosventa?lat=%1$s&lon=%2$s&dist=%3$s");
+    f = stringBuilder2.toString();
+    stringBuilder2 = new StringBuilder();
+    stringBuilder2.append(str1);
+    stringBuilder2.append("lineas/%1$s/horarios?lang=%2$s&sentido=%3$s&fecha=%4$s");
+    g = stringBuilder2.toString();
+    stringBuilder2 = new StringBuilder();
+    stringBuilder2.append(str1);
+    stringBuilder2.append("lineas/%1$s?opcion=solovariantes");
+    h = stringBuilder2.toString();
+    stringBuilder2 = new StringBuilder();
+    stringBuilder2.append(str1);
+    stringBuilder2.append("lineas?lat=%1$s&lon=%2$s&dist=%3$s");
+    i = stringBuilder2.toString();
+    stringBuilder2 = new StringBuilder();
+    stringBuilder2.append(str1);
+    stringBuilder2.append("lineas/detalleposicion/%1$s?lat=%2$s&lon=%3$s");
+    j = stringBuilder2.toString();
+    stringBuilder2 = new StringBuilder();
+    stringBuilder2.append(str1);
+    stringBuilder2.append("lineas/detalleposicion/%1$s");
+    k = stringBuilder2.toString();
+    stringBuilder2 = new StringBuilder();
+    stringBuilder2.append(str1);
+    stringBuilder2.append("posicionvehiculos");
+    l = stringBuilder2.toString();
+    stringBuilder2 = new StringBuilder();
+    stringBuilder2.append(str1);
+    stringBuilder2.append("lineas/%1$s?opcion=paradas");
+    n = stringBuilder2.toString();
+    stringBuilder2 = new StringBuilder();
+    stringBuilder2.append(str1);
+    stringBuilder2.append("lineas");
+    o = stringBuilder2.toString();
+    stringBuilder2 = new StringBuilder();
+    stringBuilder2.append(str1);
+    stringBuilder2.append("lineas/%1$s-%2$s?opcion=trazados");
+    p = stringBuilder2.toString();
+    stringBuilder2 = new StringBuilder();
+    stringBuilder2.append(str1);
+    stringBuilder2.append("version?id=%1$s");
+    q = stringBuilder2.toString();
+    stringBuilder2 = new StringBuilder();
+    stringBuilder2.append(str1);
+    stringBuilder2.append("paradasjson");
+    r = stringBuilder2.toString();
+    stringBuilder2 = new StringBuilder();
+    stringBuilder2.append(str1);
+    stringBuilder2.append("lineas/%1$s?opcion=trazados");
+    s = stringBuilder2.toString();
+    stringBuilder2 = new StringBuilder();
+    stringBuilder2.append(str1);
+    stringBuilder2.append("notificacionesapp?lang=%1$s");
+    v = stringBuilder2.toString();
+    stringBuilder2 = new StringBuilder();
+    stringBuilder2.append(str2);
+    stringBuilder2.append("obtenersaldotm?tarjeta=%1$s&titulo=%2$s&nif=%3$s");
+    m = stringBuilder2.toString();
+    stringBuilder2 = new StringBuilder();
+    stringBuilder2.append(str2);
+    stringBuilder2.append("titulos?lang=%1$s");
+    t = stringBuilder2.toString();
+    StringBuilder stringBuilder1 = new StringBuilder();
+    stringBuilder1.append(str1);
+    stringBuilder1.append("configuracion?lang=%1$s");
+    u = stringBuilder1.toString();
+  }
+  
+  static String c(String paramString) {
+    return String.format(n, new Object[] { paramString });
+  }
+  
+  public static String d() {
+    return o;
+  }
+  
+  static String e(String paramString1, String paramString2) {
+    return String.format(p, new Object[] { paramString1, paramString2 });
+  }
+  
+  public static String f(String paramString) {
+    return String.format(u, new Object[] { paramString });
+  }
+  
+  public static String g(String paramString) {
+    return String.format(s, new Object[] { paramString });
+  }
+  
+  public static String h() {
+    return r;
+  }
+  
+  public static String i(String paramString) {
+    return String.format(t, new Object[] { paramString });
+  }
+  
+  public static String j(String paramString1, String paramString2, String paramString3, String paramString4) {
+    return String.format(g, new Object[] { paramString1, paramString2, paramString3, paramString4 });
+  }
+  
+  static String k(String paramString) {
+    return String.format(b, new Object[] { paramString });
+  }
+  
+  public static String l(String paramString) {
+    return String.format(c, new Object[] { paramString });
+  }
+  
+  public static String m(String paramString1, String paramString2, String paramString3) {
+    return String.format(i, new Object[] { paramString1, paramString2, paramString3 });
+  }
+  
+  public static String n(String paramString) {
+    return String.format(h, new Object[] { paramString });
+  }
+  
+  public static String o(String paramString1, String paramString2, String paramString3) {
+    return (paramString2 == null || paramString3 == null) ? String.format(k, new Object[] { paramString1 }) : String.format(j, new Object[] { paramString1, paramString2, paramString3 });
+  }
+  
+  public static String p(String paramString) {
+    return String.format(v, new Object[] { paramString });
+  }
+  
+  public static String q(String paramString1, String paramString2, String paramString3) {
+    return String.format(d, new Object[] { paramString1, paramString2, paramString3 });
+  }
+  
+  public static String r() {
+    return l;
+  }
+  
+  public static String s(String paramString1, String paramString2, String paramString3) {
+    return String.format(f, new Object[] { paramString1, paramString2, paramString3 });
+  }
+  
+  public static String t(String paramString) {
+    return String.format(e, new Object[] { paramString });
+  }
+  
+  public static String u(String paramString1, String paramString2, String paramString3) {
+    return String.format(m, new Object[] { paramString1, paramString2, paramString3 });
+  }
+  
+  public static String v(String paramString) {
+    return String.format(q, new Object[] { paramString });
+  }
+  
+  public static String w(String paramString) {
+    return String.format(a, new Object[] { paramString });
+  }
+}
