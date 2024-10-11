@@ -1,0 +1,6 @@
+<br/>
+
+<div class="timeline gris">
+<h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="file:///android_asset/www/icono.png" align="center">&nbsp;&nbsp;<a href ="[ENLACE_HORARIO]">[DESCARGAR_HORARIO]</a></img></h3>
+</div>
+<br/><hr/>

@@ -1,0 +1,6 @@
+<h3>[TEXTOTIPOLOGIA]</h3>
+<span class="horas">
+ [PARIMPAR]
+ <!-- span class="impar">20:30</span -->
+ <!-- span class="par">20:40</span -->
+</span>

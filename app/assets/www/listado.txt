@@ -1,0 +1,34 @@
+ <div class="col-12">
+      <div class="square">
+          <p class="h4 alineartexto3 text-uppercase cambiarTexto">[NOMBRELINEA]</p>
+      </div>
+ </div>
+ <br>
+ <div class="w-100"></div>
+ <div class="col-12">
+    <p class="h5 alineartexto cambiarTexto">[TEXTONODOSALIDA]</p>
+    <hr class="colorcito"/>
+ </div>
+            <div class="col-12 align-items-center alineartexto">
+            <h7 class="alineartexto3">[INFORMACION_ADICIONAL]    <a href="https://guaguasglobal.com/pdf-linea/?id=[CODIGOCONCESION2]">[LINK]</a></h7>
+            </div>
+[TIPOLOGIATXT]
+<div class="w-100"></div>
+  [LEYENDA]
+  [AVISO][OBSERVACIONES]
+<div class="w-100"></div>
+<br/>
+<br/>
+<div class="container">
+    <table id="timeline" cellpadding="0" cellspacing="0" class="table-sm">
+
+        [PARADATXT]
+
+    </table>
+</div>
+<br>
+
+
+
+
+
